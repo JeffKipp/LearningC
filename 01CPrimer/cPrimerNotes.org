@@ -1,0 +1,16 @@
+* data types
+  | common term   | C type    | number of bits | max unsigned    |
+  | byte          | char      |              8 | 255             |
+  | word          | short     |             16 | 65535           |
+  | integer       | int       |             32 | ~4 billion      |
+  | long int      | long      |          32/64 | ~4 bil/18 quint |
+  | long long int | long long |             64 | ~18 quint       |
+  | float         | 32        |             32 | 3.4e38          |
+  | double float  | 64        |             64 | 1.8e308         |
+  | pointer       | 32 OR 64  |          32/64 | 4 bil/18 quint  |
+** pointers
+** floats
+* bits
+* signing
+  - "signed" by default unless ARM
+  - use "signed/unsigned" to make clear
